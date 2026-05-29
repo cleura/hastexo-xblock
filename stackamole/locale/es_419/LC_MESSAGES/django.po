@@ -18,15 +18,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: stackamole.py:963
+#: stackamole.py:989
 msgid "Timeout when launching stack."
 msgstr "Tiempo de espera al iniciar la pila."
 
-#: stackamole.py:1089
+#: stackamole.py:1115
 msgid "Unexpected result: "
 msgstr "Resultado inesperado: "
 
-#: stackamole.py:1118
+#: stackamole.py:1144
 msgid "Timeout when checking progress."
 msgstr "Tiempo de espera al comprobar el progreso."
 
@@ -107,53 +107,3 @@ msgstr "No puede deshacer esta acción."
 #: tasks.py:194
 msgid "You've reached the time limit allocated to you for using labs."
 msgstr "Ha alcanzado el límite de tiempo que se le ha asignado para usar los laboratorios."
-
-#: public/js/main.js:106
-msgid ""
-"Could not connect to your lab environment. The client detected an unexpected "
-"error. The server's error message was:"
-msgstr "No se pudo conectar a su entorno de laboratorio. El cliente detectó un error inesperado. El mensaje de error del servidor fue:"
-
-#: public/js/main.js:118
-msgid "Lost connection to your lab environment."
-msgstr "Pérdida de conexión con su entorno de laboratorio."
-
-#: public/js/main.js:120
-msgid ""
-"The remote server unexpectedly disconnected. You can try closing your "
-"browser window, and returning to this page in a few minutes."
-msgstr "El servidor remoto se desconectó inesperadamente. Puede intentar cerrar la ventana de su navegador y regresar a esta página en unos minutos."
-
-#: public/js/main.js:142
-msgid "Your lab is currently active in a separate window."
-msgstr "Su laboratorio está actualmente activo en una ventana separada."
-
-#: public/js/main.js:283
-msgid "Attention!"
-msgstr "¡Atención!"
-
-#: public/js/main.js:298
-msgid "Could not connect to your lab environment:"
-msgstr "No se pudo conectar al entorno de su laboratorio."
-
-#: public/js/main.js:323
-msgid "Your lab environment is undergoing maintenance"
-msgstr "Su entorno de laboratorio está en mantenimiento"
-
-#: public/js/main.js:325
-msgid ""
-"Your lab environment is undergoing automatic maintenance. Please try again "
-"in a few minutes."
-msgstr "Su entorno de laboratorio está en mantenimiento automático. Vuelve a intentarlo en unos minutos."
-
-#: public/js/main.js:340
-msgid "There was a problem preparing your lab environment:"
-msgstr "Hubo un problema al preparar su entorno de laboratorio:"
-
-#: public/js/main.js:385
-msgid "You completed {passed} out of {total} tasks."
-msgstr "Has completado {passed} de {total} tareas."
-
-#: public/js/main.js:448
-msgid "Type {code} to reset your lab."
-msgstr "Escribe {code} para reiniciar tu laboratorio."

@@ -18,15 +18,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: stackamole.py:963
+#: stackamole.py:989
 msgid "Timeout when launching stack."
 msgstr "Keskkonna loomiseks seatud ajalimiit täis."
 
-#: stackamole.py:1089
+#: stackamole.py:1115
 msgid "Unexpected result: "
 msgstr "Ootamatu tulemus: "
 
-#: stackamole.py:1118
+#: stackamole.py:1144
 msgid "Timeout when checking progress."
 msgstr "Tulemuste kontrollimiseks seatud ajalimiit täis."
 
@@ -108,53 +108,3 @@ msgstr "Seda toimingut ei saa tagasi võtta."
 #: tasks.py:194
 msgid "You've reached the time limit allocated to you for using labs."
 msgstr "Oled jõudnud sinule laborite kasutamiseks määratud ajalimiidini."
-
-#: public/js/main.js:106
-msgid ""
-"Could not connect to your lab environment. The client detected an unexpected "
-"error. The server's error message was:"
-msgstr "Laborikeskkonnaga ei õnnestunud ühendust luua. Klient tuvastas ootamatu vea. Serveri veateade oli:"
-
-#: public/js/main.js:118
-msgid "Lost connection to your lab environment."
-msgstr "Ühendus sinu laborikeskkonnaga katkes."
-
-#: public/js/main.js:120
-msgid ""
-"The remote server unexpectedly disconnected. You can try closing your "
-"browser window, and returning to this page in a few minutes."
-msgstr "Kaugserver katkestas ootamatult ühenduse. Võite proovida brauseriakna sulgeda ja mõne minuti pärast sellele lehele naasta."
-
-#: public/js/main.js:142
-msgid "Your lab is currently active in a separate window."
-msgstr "Sinu laborikeskkond on hetkel aktiivne teises aknas."
-
-#: public/js/main.js:283
-msgid "Attention!"
-msgstr "Tähelepanu!"
-
-#: public/js/main.js:298
-msgid "Could not connect to your lab environment:"
-msgstr "Laborikeskkonnaga ei ōnnestunud ühendust luua."
-
-#: public/js/main.js:323
-msgid "Your lab environment is undergoing maintenance"
-msgstr "Teie laborikeskkond on hetkel hoolduses"
-
-#: public/js/main.js:325
-msgid ""
-"Your lab environment is undergoing automatic maintenance. Please try again "
-"in a few minutes."
-msgstr "Teie laborikeskkond on hetkel automaatsel hooldusel. Palun proovi mõne minuti pärast uuesti."
-
-#: public/js/main.js:340
-msgid "There was a problem preparing your lab environment:"
-msgstr "Sinu laborikeskkonna ettevalmistamisel esines tõrge:"
-
-#: public/js/main.js:385
-msgid "You completed {passed} out of {total} tasks."
-msgstr "Läbisid edukalt {passed} ülesannet {total}-st."
-
-#: public/js/main.js:448
-msgid "Type {code} to reset your lab."
-msgstr "Trüki {code} laborikeskkonna taastamiseks."

@@ -67,6 +67,7 @@ class StackamoleXBlock(XBlock,
     """
     CATEGORY = "stackamole"
     STUDIO_LABEL = "Stackamole XBlock"
+    i18n_js_namespace = 'StackamoleI18N'
 
     # Settings with defaults.
     display_name = String(
@@ -623,16 +624,14 @@ class StackamoleXBlock(XBlock,
             "main_js_url": main_js_url,
         }
 
-        # Translation file url (if supported)
+        # JS translation file url (if language is supported)
         lang_code = translation.get_language()
         if lang_code and lang_code in SUPPORTED_LANGUAGES:
-            text_js_url = f'public/js/translations/{lang_code}/text.js'
-            if os.path.exists(os.path.join('stackamole', text_js_url)):
-                js_urls["text_js_url"] = self.runtime.local_resource_url(
-                    self, text_js_url)
-        else:
-            logger.warning("Javascript translation file missing or "
-                           "language is not supported")
+            i18n_service = self.runtime.service(self, "i18n")
+            i18n_js_url = i18n_service.get_javascript_i18n_catalog_url(self)
+            if i18n_js_url:
+                js_urls["i18n_js_url"] = i18n_js_url
+
         return js_urls
 
     def get_context(self, stack=None):

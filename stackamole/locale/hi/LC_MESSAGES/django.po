@@ -18,15 +18,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: stackamole.py:963
+#: stackamole.py:989
 msgid "Timeout when launching stack."
 msgstr "स्टैक लॉन्च करते समय टाइमआउट।"
 
-#: stackamole.py:1089
+#: stackamole.py:1115
 msgid "Unexpected result: "
 msgstr "अनपेक्षित परिणाम:"
 
-#: stackamole.py:1118
+#: stackamole.py:1144
 msgid "Timeout when checking progress."
 msgstr "प्रगति की जाँच करते समय समयबाह्य।"
 
@@ -109,57 +109,3 @@ msgstr "आप इस क्रिया को पूर्ववत नही�
 #: tasks.py:194
 msgid "You've reached the time limit allocated to you for using labs."
 msgstr "आप प्रयोगशालाओं का उपयोग करने के लिए आपको आवंटित समय सीमा तक पहुँच चुके हैं।"
-
-#: public/js/main.js:106
-msgid ""
-"Could not connect to your lab environment. The client detected an unexpected "
-"error. The server's error message was:"
-msgstr "सर्वर का त्रुटि संदेश था:"
-
-#: public/js/main.js:118
-msgid "Lost connection to your lab environment."
-msgstr "आपके प्रयोगशाला वातावरण से संबंध टूट गया।"
-
-#: public/js/main.js:120
-msgid ""
-"The remote server unexpectedly disconnected. You can try closing your "
-"browser window, and returning to this page in a few minutes."
-msgstr ""
-"दूरस्थ सर्वर अनपेक्षित रूप से डिस्कनेक्ट हो गया. आप अपनी  "
-"ब्राउज़र विंडो' को बंद करने और कुछ ही मिनटों में इस पृष्ठ पर लौटने का प्रयास कर सकते हैं।"
-
-#: public/js/main.js:142
-msgid "Your lab is currently active in a separate window."
-msgstr "आपकी प्रयोगशाला वर्तमान में एक अलग विंडो में सक्रिय है।"
-
-#: public/js/main.js:283
-msgid "Attention!"
-msgstr "ध्यान!"
-
-#: public/js/main.js:298
-msgid "Could not connect to your lab environment:"
-msgstr "आपके प्रयोगशाला परिवेश से कनेक्ट नहीं हो सका:"
-
-#: public/js/main.js:323
-msgid "Your lab environment is undergoing maintenance"
-msgstr "आपके प्रयोगशाला वातावरण का रखरखाव किया जा रहा है"
-
-#: public/js/main.js:325
-msgid ""
-"Your lab environment is undergoing automatic maintenance. Please try again "
-"in a few minutes."
-msgstr ""
-"आपका प्रयोगशाला वातावरण स्वचालित रखरखाव के दौर से गुजर रहा है। कृपया पुन: प्रयास करें "
-"कुछ मिनटों में।"
-
-#: public/js/main.js:340
-msgid "There was a problem preparing your lab environment:"
-msgstr "आपकी प्रयोगशाला के वातावरण को तैयार करने में कोई समस्या थी:"
-
-#: public/js/main.js:385
-msgid "You completed {passed} out of {total} tasks."
-msgstr "आपने {passed} कार्यों में से {total} कर लिए हैं।"
-
-#: public/js/main.js:448
-msgid "Type {code} to reset your lab."
-msgstr "अपनी प्रयोगशाला रीसेट करने के लिए {code} टाइप करें।"

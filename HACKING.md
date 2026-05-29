@@ -70,33 +70,16 @@ Install the [openedx i18n tools](https://github.com/openedx/i18n-tools) to your 
 
 Add translations for a new language:
 
- * Create the directories for the new language to the `/locale/` directory following the pattern: `<lang>/LC_MESSAGES`, where `<lang>` is one of the locales listed in `stackamole/locale/config.yaml`.
- * Copy the generated `django-partial.po` file to from `stackamole/locale/en/LC_MESSAGES/` to your language's `LC_MESSAGES` folder and name it `text.po`.
- * Edit the `text.po` file to add the translations.
- * Generate the machine readable `text.mo` file by running `i18n_tool generate` command in the `stackamole` directory.
- * The js translations `text.js` file can be generated in a local devstack
-    - Make sure have the translation files in the `/locale/` folder and you've built the openedx image
-    - inside your LMS container then run:
-    ```shell
-    ./manage.py lms compilejsi18n -p stackamole -d text -l <lang> -o <output_path>
-    ```
-    - copy the content of the generated file from within the LMS container to `stackamole/public/js/translations/<lang>/text.js`, where `<lang>` is one of the supported languages listed in `stackamole/common.py`.
-    (Note the difference of `-` vs `_` compared to the list in `stackamole/locale/config.yaml`)
- * Move your language directory with all it's contents from `stackamole/locale/` to the `stackamole/translations/` directory to make it discoverable for the LMS.
+* Create the directories for the new language to the `/locale/` directory following the pattern: `<lang>/LC_MESSAGES`, where `<lang>` is one of the locales listed in `stackamole/locale/config.yaml`.
+* Copy the generated `django.po` and `djangojs.po` files to from `stackamole/locale/en/LC_MESSAGES/` to your language's `LC_MESSAGES` folder.
+* Edit the `*.po` files to add the translations.
+* The `*.mo` are then compiled during the `openedx` image build via the `tutor-contrib-stackamole` plugin.
 
 Update existing translations:
 
- * Run `i18n_tool extract` command in the `stackamole` directory.
- * Move all strings to one file and drop the js file:
-   ```shell
-   tail -n +20 locale/en/LC_MESSAGES/djangojs-partial.po >> locale/en/LC_MESSAGES/django-partial.po
-   rm locale/en/LC_MESSAGES/djangojs-partial.po
-   ```
- * Temporarily move your language directory (`<lang>/LC_MESSAGES`) with the translation files to `stackamole/locale`.
- * Compare the changes in the updated `django-partial.po` file to the `text.po` file for your selected language and make changes as needed.
- * Regenerate the `text.mo` file for the the updated `text.po` file by running `i18n_tool generate`
- * Repeat the steps from "Add translations for a new language" section above to regenerate the `text.js` file (if necessary).
- * Move your language directory with all it's contents from `stackamole/locale/` back to the `stackamole/translations/` directory to make it discoverable for the LMS.
+* Run `i18n_tool extract --no-segment` command in the `stackamole` directory.
+* Review the updated `django.po` and `djangojs.po` files in `stackamole/locale/en/LC_MESSAGES/`, apply the changes appeared to the `*.po` files for all languages.
+* The `*.mo` are then compiled during the `openedx` image build via the `tutor-contrib-stackamole` plugin.
 
 ## AI assistance
 

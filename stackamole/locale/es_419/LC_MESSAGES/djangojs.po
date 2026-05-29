@@ -1,0 +1,68 @@
+# edX translation file.
+# Copyright (C) 2026 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2023-06-13 08:00+0000\n"
+"PO-Revision-Date: 2023-06-13 09:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: public/js/main.js:115
+msgid ""
+"Could not connect to your lab environment. The client detected an unexpected"
+" error. The server's error message was:"
+msgstr "No se pudo conectar a su entorno de laboratorio. El cliente detectó un error inesperado. El mensaje de error del servidor fue:"
+
+#: public/js/main.js:127
+msgid "Lost connection to your lab environment."
+msgstr "Pérdida de conexión con su entorno de laboratorio."
+
+#: public/js/main.js:129
+msgid ""
+"The remote server unexpectedly disconnected. You can try closing your "
+"browser window, and returning to this page in a few minutes."
+msgstr "El servidor remoto se desconectó inesperadamente. Puede intentar cerrar la ventana de su navegador y regresar a esta página en unos minutos."
+
+#: public/js/main.js:151
+msgid "Your lab is currently active in a separate window."
+msgstr "Su laboratorio está actualmente activo en una ventana separada."
+
+#: public/js/main.js:292
+msgid "Attention!"
+msgstr "¡Atención!"
+
+#: public/js/main.js:307
+msgid "Could not connect to your lab environment:"
+msgstr "No se pudo conectar al entorno de su laboratorio."
+
+#: public/js/main.js:332
+msgid "Your lab environment is undergoing maintenance"
+msgstr "Su entorno de laboratorio está en mantenimiento"
+
+#: public/js/main.js:334
+msgid ""
+"Your lab environment is undergoing automatic maintenance. Please try again "
+"in a few minutes."
+msgstr "Su entorno de laboratorio está en mantenimiento automático. Vuelve a intentarlo en unos minutos."
+
+#: public/js/main.js:349
+msgid "There was a problem preparing your lab environment:"
+msgstr "Hubo un problema al preparar su entorno de laboratorio:"
+
+#: public/js/main.js:394
+msgid "You completed {passed} out of {total} tasks."
+msgstr "Has completado {passed} de {total} tareas."
+
+#: public/js/main.js:448
+msgid "Type {code} to reset your lab."
+msgstr "Escribe {code} para reiniciar tu laboratorio."

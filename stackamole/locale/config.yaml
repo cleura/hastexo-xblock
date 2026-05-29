@@ -12,4 +12,3 @@ locales:
 ignore_dirs:
     - 'management'
     - 'migrations'
-    - 'public/js/translations'

@@ -18,15 +18,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: stackamole.py:963
+#: stackamole.py:989
 msgid "Timeout when launching stack."
 msgstr "Λήξη χρόνου εκκίνησης."
 
-#: stackamole.py:1089
+#: stackamole.py:1115
 msgid "Unexpected result: "
 msgstr "Απρόσμενο αποτέλεσμα: "
 
-#: stackamole.py:1118
+#: stackamole.py:1144
 msgid "Timeout when checking progress."
 msgstr "Λήξη χρόνου κατά τον έλεγχο της προόδου."
 
@@ -111,62 +111,3 @@ msgstr "Δεν μπορείτε να ακυρώσετε αυτή την ενέρ
 #: tasks.py:194
 msgid "You've reached the time limit allocated to you for using labs."
 msgstr "Εξαντλήσατε το χρόνο που έχει οριστεί για τη χρήση εργαστηρίων."
-
-#: public/js/main.js:106
-msgid ""
-"Could not connect to your lab environment. The client detected an unexpected "
-"error. The server's error message was:"
-msgstr ""
-"Αδυναμία σύνδεσης στο εργαστηριακό σας περιβάλλον. Ο πελάτης συνάντησε "
-"ένα απρόσμενο σφάλμα. Το μήνυμα λάθους του διακομιστή, ήταν:"
-
-#: public/js/main.js:118
-msgid "Lost connection to your lab environment."
-msgstr "Χάθηκε η σύνδεση στο εργαστηριακό σας περιβάλλον."
-
-#: public/js/main.js:120
-msgid ""
-"The remote server unexpectedly disconnected. You can try closing your "
-"browser window, and returning to this page in a few minutes."
-msgstr ""
-"Ο απομακρυσμένος διακομιστής διέκοψε απρόσμενα. Δοκιμάστε να "
-"κλείσετε το παράθυρο του προγράμματος περιήγησης και επιστρέψτε σε "
-"αυτή τη σελίδα σε μερικά λεπτά."
-
-#: public/js/main.js:142
-msgid "Your lab is currently active in a separate window."
-msgstr "Αυτή τη στιγμή το εργαστήριό σας είναι ενεργό σε ξεχωριστό παράθυρο."
-
-#: public/js/main.js:283
-msgid "Attention!"
-msgstr "Προσοχή!"
-
-#: public/js/main.js:298
-msgid "Could not connect to your lab environment:"
-msgstr "Αδυνατώ να συνδεθώ στο περιβάλλον του εργαστηρίου σας:"
-
-#: public/js/main.js:323
-msgid "Your lab environment is undergoing maintenance"
-msgstr "Το εργαστηριακό σας περιβάλλον είναι υπό συντήρηση"
-
-#: public/js/main.js:325
-msgid ""
-"Your lab environment is undergoing automatic maintenance. Please try again "
-"in a few minutes."
-msgstr ""
-"Το εργαστηριακό σας περιβάλλον τελεί υπό αυτοματοποιημένη "
-"συντήρηση. Παρακαλούμε προσπαθήστε ξανά σε μερικά λεπτά."
-
-#: public/js/main.js:340
-msgid "There was a problem preparing your lab environment:"
-msgstr ""
-"Παρουσιάστηκε πρόβλημα κατά την προετοιμασία "
-"του εργαστηριακού σας περιβάλλοντος:"
-
-#: public/js/main.js:385
-msgid "You completed {passed} out of {total} tasks."
-msgstr "Ολοκληρώσατε {passed} από {total} εργασίες."
-
-#: public/js/main.js:448
-msgid "Type {code} to reset your lab."
-msgstr "Πληκτρολογήστε {code} προκειμένου να επαναφέρετε το εργαστήριό σας."

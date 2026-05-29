@@ -1607,16 +1607,18 @@ class TestStackamoleXBlock(TestCase):
     def test_get_text_js_return_path(self):
         with patch('django.utils.translation.get_language',
                    return_value='es-419'):
-            text_js = self.block.get_js_urls()['text_js_url']
-            self.assertIn(
-                'public/js/translations/es-419/text.js', text_js)
+            mock_i18n_service = Mock()
+            self.block.runtime.service = Mock(return_value=mock_i18n_service)
+            self.block.get_js_urls()
+            mock_i18n_service.get_javascript_i18n_catalog_url.\
+                assert_called_once_with(self.block)
 
     def test_get_text_js_return_none(self):
         with patch('django.utils.translation.get_language',
                    return_value='ar'):
             # ar is not in our SUPPORTED_LANGUAGES list
             js_urls = self.block.get_js_urls()
-            self.assertNotIn('text_js_url', js_urls)
+            self.assertNotIn('i18n_js_url', js_urls)
 
     def test_launch_new_window(self):
         self.init_block()

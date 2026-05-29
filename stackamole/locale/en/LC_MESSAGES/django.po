@@ -1,32 +1,31 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# edX translation file.
+# Copyright (C) 2026 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2026.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-11 13:29+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2023-06-13 08:00+0000\n"
+"PO-Revision-Date: 2023-06-13 09:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: stackamole.py:963
+#: stackamole.py:989
 msgid "Timeout when launching stack."
 msgstr ""
 
-#: stackamole.py:1089
+#: stackamole.py:1115
 msgid "Unexpected result: "
 msgstr ""
 
-#: stackamole.py:1118
+#: stackamole.py:1144
 msgid "Timeout when checking progress."
 msgstr ""
 
@@ -105,54 +104,4 @@ msgstr ""
 
 #: tasks.py:194
 msgid "You've reached the time limit allocated to you for using labs."
-msgstr ""
-
-#: public/js/main.js:106
-msgid ""
-"Could not connect to your lab environment. The client detected an unexpected "
-"error. The server's error message was:"
-msgstr ""
-
-#: public/js/main.js:118
-msgid "Lost connection to your lab environment."
-msgstr ""
-
-#: public/js/main.js:120
-msgid ""
-"The remote server unexpectedly disconnected. You can try closing your "
-"browser window, and returning to this page in a few minutes."
-msgstr ""
-
-#: public/js/main.js:142
-msgid "Your lab is currently active in a separate window."
-msgstr ""
-
-#: public/js/main.js:283
-msgid "Attention!"
-msgstr ""
-
-#: public/js/main.js:298
-msgid "Could not connect to your lab environment:"
-msgstr ""
-
-#: public/js/main.js:323
-msgid "Your lab environment is undergoing maintenance"
-msgstr ""
-
-#: public/js/main.js:325
-msgid ""
-"Your lab environment is undergoing automatic maintenance. Please try again "
-"in a few minutes."
-msgstr ""
-
-#: public/js/main.js:340
-msgid "There was a problem preparing your lab environment:"
-msgstr ""
-
-#: public/js/main.js:385
-msgid "You completed {passed} out of {total} tasks."
-msgstr ""
-
-#: public/js/main.js:448
-msgid "Type {code} to reset your lab."
 msgstr ""

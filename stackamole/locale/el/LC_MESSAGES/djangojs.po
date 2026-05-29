@@ -1,0 +1,77 @@
+# edX translation file.
+# Copyright (C) 2026 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2023-06-13 08:00+0000\n"
+"PO-Revision-Date: 2023-06-13 09:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: public/js/main.js:115
+msgid ""
+"Could not connect to your lab environment. The client detected an unexpected"
+" error. The server's error message was:"
+msgstr ""
+"Αδυναμία σύνδεσης στο εργαστηριακό σας περιβάλλον. Ο πελάτης συνάντησε "
+"ένα απρόσμενο σφάλμα. Το μήνυμα λάθους του διακομιστή, ήταν:"
+
+#: public/js/main.js:127
+msgid "Lost connection to your lab environment."
+msgstr "Χάθηκε η σύνδεση στο εργαστηριακό σας περιβάλλον."
+
+#: public/js/main.js:129
+msgid ""
+"The remote server unexpectedly disconnected. You can try closing your "
+"browser window, and returning to this page in a few minutes."
+msgstr ""
+"Ο απομακρυσμένος διακομιστής διέκοψε απρόσμενα. Δοκιμάστε να "
+"κλείσετε το παράθυρο του προγράμματος περιήγησης και επιστρέψτε σε "
+"αυτή τη σελίδα σε μερικά λεπτά."
+
+#: public/js/main.js:151
+msgid "Your lab is currently active in a separate window."
+msgstr "Αυτή τη στιγμή το εργαστήριό σας είναι ενεργό σε ξεχωριστό παράθυρο."
+
+#: public/js/main.js:292
+msgid "Attention!"
+msgstr "Προσοχή!"
+
+#: public/js/main.js:307
+msgid "Could not connect to your lab environment:"
+msgstr "Αδυνατώ να συνδεθώ στο περιβάλλον του εργαστηρίου σας:"
+
+#: public/js/main.js:332
+msgid "Your lab environment is undergoing maintenance"
+msgstr "Το εργαστηριακό σας περιβάλλον είναι υπό συντήρηση"
+
+#: public/js/main.js:334
+msgid ""
+"Your lab environment is undergoing automatic maintenance. Please try again "
+"in a few minutes."
+msgstr ""
+"Το εργαστηριακό σας περιβάλλον τελεί υπό αυτοματοποιημένη "
+"συντήρηση. Παρακαλούμε προσπαθήστε ξανά σε μερικά λεπτά."
+
+#: public/js/main.js:349
+msgid "There was a problem preparing your lab environment:"
+msgstr ""
+"Παρουσιάστηκε πρόβλημα κατά την προετοιμασία "
+"του εργαστηριακού σας περιβάλλοντος:"
+
+#: public/js/main.js:394
+msgid "You completed {passed} out of {total} tasks."
+msgstr "Ολοκληρώσατε {passed} από {total} εργασίες."
+
+#: public/js/main.js:448
+msgid "Type {code} to reset your lab."
+msgstr "Πληκτρολογήστε {code} προκειμένου να επαναφέρετε το εργαστήριό σας."

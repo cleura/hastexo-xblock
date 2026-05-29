@@ -18,15 +18,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: stackamole.py:963
+#: stackamole.py:989
 msgid "Timeout when launching stack."
 msgstr "Zeitüberschreitung beim Starten des Stacks."
 
-#: stackamole.py:1089
+#: stackamole.py:1115
 msgid "Unexpected result: "
 msgstr "Unerwartetes Ergebnis: "
 
-#: stackamole.py:1118
+#: stackamole.py:1144
 msgid "Timeout when checking progress."
 msgstr "Zeitüberschreitung bei der Fortschrittsprüfung."
 
@@ -107,53 +107,3 @@ msgstr "Dieser Vorgang lässt sich nicht rückgängig machen."
 #: tasks.py:194
 msgid "You've reached the time limit allocated to you for using labs."
 msgstr "Die Zeitbeschränkung für die Nutzung der Übungsumgebung wurde überschritten."
-
-#: public/js/main.js:106
-msgid ""
-"Could not connect to your lab environment. The client detected an unexpected "
-"error. The server's error message was:"
-msgstr "Kann keine Verbindung zur Übungsumgebung herstellen. Ein unerwarteter Fehler ist aufgetreten. Die Fehlermeldung des Servers lautet:"
-
-#: public/js/main.js:118
-msgid "Lost connection to your lab environment."
-msgstr "Verbindung zur Übungsumgebung verloren."
-
-#: public/js/main.js:120
-msgid ""
-"The remote server unexpectedly disconnected. You can try closing your "
-"browser window, and returning to this page in a few minutes."
-msgstr "Der Server hat unerwartet die Verbindung abgebrochen. Möglicherweise lässt sich die Verbindung durch Schließen und (nach einigen Minuten) Wiederöffnen des Browserfensters wieder herstellen."
-
-#: public/js/main.js:142
-msgid "Your lab is currently active in a separate window."
-msgstr "Die Übungsumgebung läuft derzeit in einem anderen Fenster."
-
-#: public/js/main.js:283
-msgid "Attention!"
-msgstr "Achtung!"
-
-#: public/js/main.js:298
-msgid "Could not connect to your lab environment:"
-msgstr "Keine Verbindung zur Übungsumgebung."
-
-#: public/js/main.js:323
-msgid "Your lab environment is undergoing maintenance"
-msgstr "Ihre Übungsumgebung wird gerade gewartet"
-
-#: public/js/main.js:325
-msgid ""
-"Your lab environment is undergoing automatic maintenance. Please try again "
-"in a few minutes."
-msgstr "Ihr Übungsumgebung befindet sich im Wartungszustand. Sie steht in ein paar Minuten wieder zur Verfügung."
-
-#: public/js/main.js:340
-msgid "There was a problem preparing your lab environment:"
-msgstr "Bei der Herstellung der Übungsumgebung ist ein Problem aufgetreten:"
-
-#: public/js/main.js:385
-msgid "You completed {passed} out of {total} tasks."
-msgstr "{passed} von insgesamt {total} Aufgaben wurden korrekt erfüllt."
-
-#: public/js/main.js:448
-msgid "Type {code} to reset your lab."
-msgstr "{code} eingeben, um die Übungsumgebung zurückzusetzen."
