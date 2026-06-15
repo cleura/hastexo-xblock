@@ -1,3 +1,3 @@
 [submodule ".agents/skills"]
 	path = .agents/skills
-	url = ../skills
+	url = https://github.com/cleura/skills
