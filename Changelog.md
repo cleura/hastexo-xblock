@@ -1,4 +1,4 @@
-Unreleased
+Version 9.2.0 (2026-06-16)
 -------------------------
 
 * [Enhancement] Remove child block support to enable compatibility with Content Libraries V2.
