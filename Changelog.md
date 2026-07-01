@@ -1,3 +1,8 @@
+Unreleased
+-------------------------
+
+* [Testing] Set skip_missing_interpreters = true for tox, so that it runs with whatever Python is available.
+
 Version 9.2.0 (2026-06-16)
 -------------------------
 
