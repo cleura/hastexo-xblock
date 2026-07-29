@@ -1,4 +1,4 @@
-Unreleased
+Version 9.3.0 (2026-07-29)
 -------------------------
 
 * [Bug fix] Fix translations for supported languages.
