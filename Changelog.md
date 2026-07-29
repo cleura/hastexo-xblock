@@ -1,13 +1,14 @@
 Unreleased
 -------------------------
 
+* [Bug fix] Fix translations for supported languages.
+  Move translations to the `/locale` directory as `<lang_code>/LC_MESSAGES/django.po` and `<lang_code>/LC_MESSAGES/djangojs.po`.
+  Compile the `*.mo` files during the `openedx` image build via the `tutor-contrib-stackamole` plugin.
 * [Testing] Set skip_missing_interpreters = true for tox, so that it runs with whatever Python is available.
 
 Version 9.2.0 (2026-06-16)
 -------------------------
-* [Bug fix] Fix translations for supported languages.
-  Move translations to the `/locale` directory as `<lang_code>/LC_MESSAGES/django.po` and `<lang_code>/LC_MESSAGES/djangojs.po`.
-  Compile the `*.mo` files during the `openedx` image build via the `tutor-contrib-stackamole` plugin.
+
 * [Enhancement] Remove child block support to enable compatibility with Content Libraries V2.
   Library Units now provide a way to combine a Stackamole Lab with other blocks (in a library Unit), making child blocks unnecessary for this purpose.
 
