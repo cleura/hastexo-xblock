@@ -30,6 +30,7 @@ If you are installing this plugin from a branch in this Git repository, you must
 | Teak             | `>=20.0, <21` | `hastexo-xblock>=8.5, <9.0` | `master`      |
 | Ulmo             | `>=21.0, <22` | `hastexo-xblock>=8.6, <9.0` | `master`      |
 | Ulmo             | `>=21.0, <22` | `stackamole-xblock>=9.0`    | `main`        |
+| Verawood         | `>=22.0, <23` | `stackamole-xblock>=9.4`    | `main`        |
 
 Instructions for deploying this XBlock with Tutor can be found below, in the [Deployment with Tutor](#deployment-with-tutor) section.
 
