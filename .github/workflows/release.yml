@@ -1,0 +1,32 @@
+---
+name: Release package to PyPI
+
+jobs:
+  pypi-publish:
+    name: Upload release to PyPI
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/stackamole-xblock
+    permissions:
+      # IMPORTANT: this permission is mandatory for trusted publishing
+      id-token: write
+    steps:
+      - name: 'Check out code'
+        uses: actions/checkout@v6
+      - name: 'Set up Python 3.14'
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.14'
+      - name: 'Install dependencies'
+        run: |
+          pip install tox
+      - name: 'Build with tox'
+        run: 'tox -e build'
+      - name: 'Publish to PyPI'
+        uses: pypa/gh-action-pypi-publish@release/v1
+
+"on":
+  push:
+    tags:
+      - "v*"
