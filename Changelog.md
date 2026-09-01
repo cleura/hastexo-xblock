@@ -1,4 +1,4 @@
-Unreleased
+Version 9.4.0 (2026-09-01)
 -------------------------
 
 * [Enhancement] Update requirements for Open edX Verawood release.
